@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "model": {
+    "owner": "google",
+    "name": "nano-banana"
+  },
+  "links": {
+    "privacy": "https://exlinetr.github.io/buildmate-glare-c340eb-pages/privacy.html",
+    "terms": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "support_email": "support@exlinetr.com"
+  },
+  "modes": [
+    {
+      "key": "remove_glare",
+      "title": "Remove Glare",
+      "subtitle": "Erase reflections, glare and light spots from lenses",
+      "icon": "sparkles",
+      "paywall_source": "process_glare",
+      "premium": true,
+      "prompt": "Remove all glare, reflections, light spots, sparkles and screen or window reflections from the lenses of the eyeglasses or sunglasses in this photo. Make the lenses look clear and natural so the eyes behind them are fully visible with realistic detail, matching the person's real eye shape, gaze direction, skin tone and lighting. Keep the glasses frame, lens tint, face, hair, expression, background, colors, framing and image quality exactly the same. Do not change anything other than the reflections on the lenses."
+    },
+    {
+      "key": "remove_glasses",
+      "title": "Remove Glasses",
+      "subtitle": "Take the glasses off entirely, naturally",
+      "icon": "eyeglasses.slash",
+      "paywall_source": "remove_glasses",
+      "premium": true,
+      "prompt": "Remove the eyeglasses or sunglasses completely from the person's face in this photo, including the frame, lenses, nose pads and temples. Reconstruct the eyes, eyebrows, eyelids, nose bridge and the skin around the eyes realistically, matching the person's identity, skin tone, texture, lighting and expression. Remove any marks or shadows left by the glasses. Keep the face, hair, clothing, background, colors, framing and image quality exactly the same."
+    }
+  ]
+}
